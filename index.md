@@ -14,7 +14,7 @@ In our data story we explore conflicts all over the world and the public attenti
 {: style="text-align: justify"}
 
 
-### Where the news come from ?
+### Where does the news come from ?
 
 <iframe src="https://matterhorn-ada.github.io/urls-log.html" width="100%" height="400px" frameBorder="0" scrolling="no"></iframe>
 <br>
