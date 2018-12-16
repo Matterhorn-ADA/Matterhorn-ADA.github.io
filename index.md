@@ -188,7 +188,7 @@ This analysis highlights that only knowing basic facts of an event can provide a
 Are some nations more emotional? Do we see sensitivity differences between some countries or actors?
 {: style="text-align: justify"}
 
-<iframe width="900" height="600" frameborder="0" scrolling="no" src="//plot.ly/~StudentUni/50.embed"></iframe>
+<iframe width="100%" height="600" frameborder="0" scrolling="no" src="//plot.ly/~StudentUni/50.embed"></iframe>
 
 *We make use of the GCAM feature in GDELT to associate certain words with countries. This plot represents some of the most used words by these countries.*
 {: style="text-align: justify"}
