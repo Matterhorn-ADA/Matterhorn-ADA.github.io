@@ -69,10 +69,36 @@ The figure speaks for itself: the number of kilometres separating the event and 
 Can we observe patterns of emotions with respect to a country, religion or an ethnical group? Can we derive a model predicting emotions in case of a new conflict based on its specific features?
 {: style="text-align: justify"}
 
+The complexity behind what actually defines the emotions of a news article paper is obviously a function of the words that are used to describe the event. Words are abundant, and thousands of words are at the disposition of the news reporter. Attributing a tone to the document is done by GDELT through the count of positive minus negative words, which implies that the resulting tone is not necessarily the tone a human reader would attribute to the document. In addition, a neutral tone, meaning a zero score, could be the consequence of equally abundant negative and positive words (this issue is however mitigated by providing a polarity score: a high polarity score, but a zero average tone would point towards such a situation).
+{: style="text-align: justify"}
+
+Analysing the semantics of a document through the words is computationally expensive. We try to overcome the computational hurdle by predicting the emotions of a document by a simpler collection of features, such as the location of the event, who reported it, what kind of event was it, where there religious concerns, … which additionally allows to see whether the emotional reaction  of the news can already be predicted by just knowing basic facts of an event. 
+{: style="text-align: justify"}
+
+*Figure of avgtone distribution and features*
+
+Applying a random forest machine learning algorithm and splitting on a training and test, we get an accuracy of around .. %. While this accuracy is very low, the model does indeed give an indication of the emotional tone of an article and outperforms a random and a uniform model (a model randomly predicting one of the average tones, and a model only predicting the category “negative” which is the most prevalent). However, the model is clearly not satisfying and the question of how accurate the emotional tone actually is remains. Naturally one would say, that events where someone got killed are more negative, but in the dataset such events also get attributed to positive emotions. On the other hand, events reporting the release of a hostages, have negative scores which looks surprising. Let’s look at some examples which all have the attribute “KILL” to understand this situation:
+
+*TBD: image of articles*
+
+*News headline taken from the GDELT dataset. Indicated is the measured tone of the article and its polarity in parentheses. TBD: Explanation of the polarity?*
+
+The first news headline undoubtedly merits the strong negative score, and the second which describes a situation where a kid could have possibly died, but survived thanks to medical intervention, merits the positive score. The difference between this first and last example can however only be captured by differences of the choice of words, where the last document indeed uses a more positive vocabulary than the first document.
+The last example, however, results from a misclassification and shows that the word analysis is not a hundred percent reliable and representative of the actual document emotion, and underlines that simple words, without the context, define the tone given by the algorithm.
+
+To keep things simple, and without including all the words such as the GDELT algorithm, we integrate a small collection of positive-minded words in our model. The result is striking: by only adding positive words, the accuracy could be improved by … %. 
+
+*TBU: figure of positive words*
+
+This analysis highlights that only knowing basic facts of an event can provide a good indication of how it will be perceived in the media in the different countries. However, since the emotional metrics provided by GDELT only relies on word counts and thus introduces a lot of noise into the data, a precise model cannot be derived.
+
 
 ### Hysteric or ice queen ? (q5 - words - Ped)
 Are some nations more emotional? Do we see sensitivity differences between some countries or actors?
 {: style="text-align: justify"}
+
+
+*TBD: First 15 minutes update might be a reason for significant biases towards countries at the forefront of reporting digital news such as the UK with BBC and the US with ..?*
 
 
 
