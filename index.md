@@ -78,19 +78,23 @@ Analysing the semantics of a document through the words is computationally expen
 *Figure of avgtone distribution and features*
 
 Applying a random forest machine learning algorithm and splitting on a training and test, we get an accuracy of around .. %. While this accuracy is very low, the model does indeed give an indication of the emotional tone of an article and outperforms a random and a uniform model (a model randomly predicting one of the average tones, and a model only predicting the category “negative” which is the most prevalent). However, the model is clearly not satisfying and the question of how accurate the emotional tone actually is remains. Naturally one would say, that events where someone got killed are more negative, but in the dataset such events also get attributed to positive emotions. On the other hand, events reporting the release of a hostages, have negative scores which looks surprising. Let’s look at some examples which all have the attribute “KILL” to understand this situation:
+{: style="text-align: justify"}
 
 *TBD: image of articles*
 
 *News headline taken from the GDELT dataset. Indicated is the measured tone of the article and its polarity in parentheses. TBD: Explanation of the polarity?*
+{: style="text-align: justify"}
 
-The first news headline undoubtedly merits the strong negative score, and the second which describes a situation where a kid could have possibly died, but survived thanks to medical intervention, merits the positive score. The difference between this first and last example can however only be captured by differences of the choice of words, where the last document indeed uses a more positive vocabulary than the first document.
-The last example, however, results from a misclassification and shows that the word analysis is not a hundred percent reliable and representative of the actual document emotion, and underlines that simple words, without the context, define the tone given by the algorithm.
+The first news headline undoubtedly merits the strong negative score, and the second which describes a situation where a kid could have possibly died, but survived thanks to medical intervention, merits the positive score. The difference between this first and last example can however only be captured by differences of the choice of words, where the last document indeed uses a more positive vocabulary than the first document. The last example, however, results from a misclassification and shows that the word analysis is not a hundred percent reliable and representative of the actual document emotion, and underlines that simple words, without the context, define the tone given by the algorithm.
+{: style="text-align: justify"}
 
 To keep things simple, and without including all the words such as the GDELT algorithm, we integrate a small collection of positive-minded words in our model. The result is striking: by only adding positive words, the accuracy could be improved by … %. 
+{: style="text-align: justify"}
 
 *TBU: figure of positive words*
 
 This analysis highlights that only knowing basic facts of an event can provide a good indication of how it will be perceived in the media in the different countries. However, since the emotional metrics provided by GDELT only relies on word counts and thus introduces a lot of noise into the data, a precise model cannot be derived.
+{: style="text-align: justify"}
 
 
 ### Hysteric or ice queen ? (q5 - words - Ped)
