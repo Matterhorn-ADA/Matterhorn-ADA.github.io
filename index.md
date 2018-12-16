@@ -164,7 +164,7 @@ possibly died but survived thanks to medical intervention, shows a positive scor
 percent reliable and representative of the actual document emotion, and underlines that simple words, without the context, define the attributed tone of the GDELT algorithm.
 {: style="text-align: justify"}
 
-Even though the aim of our emotion model is to predict emotional reactions from some essential raw features, we try to see if we can improve our model by adding to the features some words that were used in the news article to describe the event. To keep things simple, and without including all available GCAM words **(EXPLAIN IF NOT EXPLAINED BEFORE)** such as the GDELT algorithm, we integrate a small collection of positive words in our model. The result is striking: by only adding a few positive words, the accuracy could be improved by 7%. 
+Even though the aim of our emotion model is to predict emotional reactions from some essential raw features, we try to see if we can improve our model by adding to the features some words that were used in the news article to describe the event. To keep things simple, and without including all available GCAM words, the words that GDELT searches referent to some event regarding specific dictionaries, such as the GDELT algorithm, we integrate a small collection of positive words in our model. The result is striking: by only adding a few positive words, the accuracy could be improved by 7%. 
 {: style="text-align: justify"}
 
 <p align="center">
@@ -188,7 +188,7 @@ This analysis highlights that only knowing basic facts of an event can provide a
 Are some nations more emotional? Do we see sensitivity differences between some countries or actors?
 {: style="text-align: justify"}
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~StudentUni/48.embed"></iframe>
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~StudentUni/50.embed"></iframe>
 
 *We make use of the GCAM feature in GDELT to associate certain words with countries. This plot represents some of the most used words by these countries.*
 {: style="text-align: justify"}
