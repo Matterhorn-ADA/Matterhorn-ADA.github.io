@@ -136,8 +136,9 @@ of event was it, where there religious concerns, how many people were implicated
 predicted by just knowing basic facts of an event. The emotional reaction we use in the model is the tone given to the news paper article that we disretized into four categories.
 {: style="text-align: justify"}
 
+<p align="center">
 <iframe width="600" height="400" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/18.embed"></iframe>
-
+</p>
 *The distribution of the tone which is reported by GDELT for each news article. We define the following categories: very negative: [-101, -10], negative: [-10, -5], mildly negative: [-5, 0], mildly positive: [0, 5], positive: [5, 100]*
 {: style="text-align: justify"}
 
@@ -174,7 +175,7 @@ percent reliable and representative of the actual document emotion, and underlin
 Even though the aim of our emotion model is to predict emotional reactions from some essential raw features, we try to see if we can improve our model by adding to the features some words that were used in the news article to describe the event. To keep things simple, and without including all available GCAM words **(EXPLAIN IF NOT EXPLAINED BEFORE)** such as the GDELT algorithm, we integrate a small collection of positive words in our model. The result is striking: by only adding a few positive words, the accuracy could be improved by 7%. 
 {: style="text-align: justify"}
 
-<img src="images/postive_words.jpg" alt="positive_words" width="300">
+<img src="images/postive_words.jpg" alt="positive_words" width="500">
 *Positive words that were included as features into the random forest model.*
 {: style="text-align: justify"}
 
