@@ -87,7 +87,7 @@ Do we have a saturation limit? Does increasing number of conflicts make people f
 
 
 
-### How large is our circle of empathy ? (q1 - dist and avg tone - Mar)
+### How large is our circle of empathy ? (q1 - dist and avg tone - Mar) MOIEN
 Are we emotionally biased? Do the number of conflicts or their distance from our home define our emotions? 
 {: style="text-align: justify"}
 
