@@ -151,15 +151,23 @@ surprising. Let’s look at some examples which all have the attribute “KILL�
 Explanation of the polarity*
 {: style="text-align: justify"}
 
-The first news headline undoubtedly merits the strong negative score, and the second which describes a situation where a kid could have possibly died but survived thanks to medical intervention, shows a positive score. The difference between this first and last example can however only be captured by differences of the choice of words, where the last document indeed uses a more positive vocabulary than the first document. The last example, however, results from a misclassification and shows that the word analysis is not a hundred percent reliable and representative of the actual document emotion, and underlines that simple words, without the context, define the tone given by the algorithm.
+The first news headline undoubtedly merits the strong negative score, and the second which describes a situation where a kid could have 
+possibly died but survived thanks to medical intervention, shows a positive score. The difference between this first and last example 
+can however only be captured by differences of the choice of words, where the last document indeed uses a more positive vocabulary than 
+the first document. The last example, however, results from a misclassification and shows that the word analysis is not a hundred 
+percent reliable and representative of the actual document emotion, and underlines that simple words, without the context, define the 
+tone given by the algorithm.
 {: style="text-align: justify"}
 
-To keep things simple, and without including all the words such as the GDELT algorithm, we integrate a small collection of positive  words in our model. The result is striking: by only adding positive words, the accuracy could be improved by … %. *(TBU)*
+To keep things simple, and without including all the words such as the GDELT algorithm, we integrate a small collection of positive  
+words in our model. The result is striking: by only adding positive words, the accuracy could be improved by … %. *(TBU)*
 {: style="text-align: justify"}
 
 *TBU: figure of positive words*
 
-This analysis highlights that only knowing basic facts of an event can provide a good indication of how it will be perceived in the media in the different countries. However, since the emotional metrics provided by GDELT only relies on word counts and thus introduces a lot of noise into the data, a precise model cannot be derived.
+This analysis highlights that only knowing basic facts of an event can provide a good indication of how it will be perceived in the 
+media in the different countries. However, since the emotional metrics provided by GDELT only relies on word counts and thus introduces 
+a lot of noise into the data, a precise model cannot be derived.
 {: style="text-align: justify"}
 
 
@@ -172,48 +180,5 @@ Are some nations more emotional? Do we see sensitivity differences between some 
 
 ### TBU, to mention somewhere
 
-*First 15 minutes update might be a reason for significant biases towards countries at the forefront of reporting digital news such as the UK with BBC and the US with ..?*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Back up your stuff with solid, clean citations. Footnotes can be written in markdown and appear like this. Use as many as you like.[^2]
-
-### Font awesome is also included
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i> Now you can use all the cool icons you want! [Font Awesome](http://fontawesome.io) is indeed awesome. But wait, you don't need this sweetness and you don't want that little bit of load time from the font awesome css? No problem, just disable it in the `config.yml` file, and it won't be loaded.
-
-<ul class="fa-ul">
-  <li><i class="fa-li fa fa-check-square"></i>you can make lists...</li>
-  <li><i class="fa-li fa fa-check-square-o"></i>with cool icons like this,</li>
-  <li><i class="fa-li fa fa-spinner fa-spin"></i>even ones that move!</li>
-</ul>
-
-If you need them, you can stick any of the [605 icons](http://fontawesome.io/icons/) anywhere, with any size you like. ([See documentation](http://fontawesome.io/examples/))
-
-<i class="fa fa-building"></i>&nbsp;&nbsp;<i class="fa fa-bus fa-lg"></i>&nbsp;&nbsp;<i class="fa fa-cube fa-2x"></i>&nbsp;&nbsp;<i class="fa fa-paper-plane fa-3x"></i>&nbsp;&nbsp;<i class="fa fa-camera-retro fa-4x">
-
-<img src="images/hello.svg" alt="sample image">
-
-##### Footnotes:
-
-[^1]: adf
-
-[^2]: Here is another.
+*First 15 minutes update might be a reason for significant biases towards countries at the forefront of reporting digital news such as 
+the UK with BBC and the US with ..?*
