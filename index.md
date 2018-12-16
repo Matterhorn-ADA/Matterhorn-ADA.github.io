@@ -182,12 +182,6 @@ Even though the aim of our emotion model is to predict emotional reactions from 
 This analysis highlights that only knowing basic facts of an event can provide a good indication of how it will be perceived in the media in the different countries. However, since our model uses as the response variable the emotional metrics provided by GDELT which relies on word counts and thus the data at disposition is very noisy, a precise model cannot be derived. Though, an important message from the analysis is that the choice of words used by the reporter, irrespective of the facts that are reported, determine the tone the document gets, which opens up the question, to what extent the words, and not the content, emotionally influence a human reader. 
 {: style="text-align: justify"}
 
-*TBU: plot*
-
-*TBU: plot description*
-
-*TBU: comment the results*
-
 
 ### What do the emotions say wordwise ?
 Are some nations more emotional? Do we see sensitivity differences between some countries or actors?
