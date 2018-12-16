@@ -200,7 +200,6 @@ Are some nations more emotional? Do we see sensitivity differences between some 
 *TBU: comment the results*
 
 
-
 ### TBU, to mention somewhere
 
 *First 15 minutes update might be a reason for significant biases towards countries at the forefront of reporting digital news such as 
