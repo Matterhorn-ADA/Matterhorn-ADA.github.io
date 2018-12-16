@@ -101,7 +101,7 @@ for a trend when plotted against the geographic distance of event and source loc
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/6.embed"></iframe>
 
 *The emotional charge of an article (measure of polarity and tone) vs the geographic distance between an event and the news source 
-calculated by the Great-Circle distance formula [^1]. Only a fraction (0.01%) of the all the GDELT events in the 2015-2017 period is 
+calculated by the [Great-Circle distance formula](https://en.wikipedia.org/wiki/Great-circle_distance). Only a fraction (0.01%) of the all the GDELT events in the 2015-2017 period is 
 shown here.*
 {: style="text-align: justify"}
 
@@ -214,6 +214,6 @@ If you need them, you can stick any of the [605 icons](http://fontawesome.io/ico
 
 ##### Footnotes:
 
-[^1]: https://en.wikipedia.org/wiki/Great-circle_distance
+[^1]: adf
 
 [^2]: Here is another.
