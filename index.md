@@ -21,10 +21,10 @@ Throughout our research we hope to lift the shroud of how equally media report o
 
 
 
-### Where the news come from ? (Mat)
+### Where does the news come from ? (Mat)
 
 <iframe src="https://matterhorn-ada.github.io/urls-log.html" width="100%" height="400px" frameBorder="0" scrolling="no"></iframe>
-*GDELT harnesses numerous online news sources and most of them are connected to a particular country. Tha map show the number of sources 
+*GDELT harnesses numerous online news sources and most of them are connected to a particular country. The map show the number of sources 
 per country on a logarithmic scale.*
 {: style="text-align: justify"}
 
