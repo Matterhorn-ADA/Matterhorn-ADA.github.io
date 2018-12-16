@@ -13,7 +13,7 @@ Throughout our research we hope to lift the shroud of how equally media report o
 
 
 
-### Where does the news come from ? (Mat)
+### Where does the news come from ?
 
 <iframe src="https://matterhorn-ada.github.io/urls-log.html" width="100%" height="400px" frameBorder="0" scrolling="no"></iframe>
 *GDELT harnesses numerous online news sources and most of them are connected to a particular country. The map show the number of sources 
@@ -28,7 +28,7 @@ servers and the significance of the country in the world politics.
 
 
 
-### Do we care about all ? (q2 - no of articles / country - Mar)
+### Do we care about all ?
 Are some countries ignored in the news? Is the number of conflicts taking place in a country in relation with the number of mentions in the media? Does it depend on where the conflict has happened?
 {: style="text-align: justify"}
 
@@ -38,9 +38,12 @@ Are some countries ignored in the news? Is the number of conflicts taking place 
 {: style="text-align: justify"}
 
 Again, it becomes visible that the dataset is biaised towards US-based events, followed by UK events after a big gap. Interestingly, there is a perfect correlation between the number of events happening and the number of articles that are reported (which becomes more evident when zooming in the figure). However, the number of people living in a country do not significantly influence the number of events, except for the very low-populated countries which tend to be in the left corner of the plot. This relation between the number of published articles and the number of events can be explained by the fact, that once the news reaches the web, it spreads in a more or less even fashion among the GDELT news sources, independent from where it originates. Hence, to answer the question whether some countries are ignored in the news, we tend to say no, however, some countries, such as the UK and the US, are comparewise overrepresented, which raises the questions what distinct features does an event require to be actually reported in a news source.
+
+
+This continuous bias that we see regarding the UK and the US might be due that only thh first 15 minutes of event reportage are accounted when something happens, so major news sources there are at the forefront of reporting digital news such as the BBC or Fox News and CNN, are the main contributors for the events accounted.
 {: style="text-align: justify"}
 
-### Are emotions a measure of importance ? (new question - Mar)
+### Are emotions a measure of importance ?
 Does our emotional reaction reflect the severity of an event? 
 {: style="text-align: justify"}
 
@@ -53,7 +56,7 @@ the event within this short period. The countries indicate where the event happe
 
 We expected that high-impact events are associated with a larger spectrum of emotions, and that events such as an unexpected terror 
 attack which affect a huge mass of people and are spreading rapidly in the news could be frequently seen in the GDELT dataset. However, 
-as seen in the figure XX (*TBU*), events tend to be labelled as emotionally neutral when reaching a certain level of importance. On the 
+as seen in the figure above, events tend to be labelled as emotionally neutral when reaching a certain level of importance. On the 
 other hand, minor events reported by only a few sources are having a much larger variation in the reporting tone. While this might sound 
 surprising at first, there may very well be a simple explanation: averaging the document tone over all kind of news articles, from 
 neutral news agency reports, to more emotional boulevard articles, results in an average tone which tends to lose the distinct emotions 
@@ -80,7 +83,7 @@ Also, you can see that it is more commom that when countries get more emotional,
 
 
 
-### How large is our circle of empathy ? (q1 - dist and avg tone - Mar) 
+### How large is our circle of empathy ? 
 Are we emotionally biased? Do the number of conflicts or their distance from our home define our emotions? 
 {: style="text-align: justify"}
 
@@ -110,7 +113,7 @@ look for example at India, we see that it receives a lot of attention in its sur
 
 
 
-### Are we emotionally predictable ? (q3 - model - Mar)
+### Are we emotionally predictable ?
 Can we observe patterns of emotions with respect to a country, religion or an ethnical group? Can we derive a model predicting emotions 
 in case of a new conflict based on its specific features?
 {: style="text-align: justify"}
@@ -156,8 +159,7 @@ surprising. Let’s look at some examples which all have the attribute “KILL�
 {: style="text-align: justify"}
 
 <img src="images/articles.jpg" alt="articles">
-*News headline taken from the GDELT dataset. Indicated is the measured tone of the article and its polarity in parentheses. TBD: 
-Explanation of the polarity*
+*News headline taken from the GDELT dataset. Indicated is the measured tone of the article and its polarity in parentheses. Polarity gives an idea of how polar the speech was (it is the difference between a positive and negative tone that is used to build the average tone of the event)*
 {: style="text-align: justify"}
 
 The first news headline undoubtedly merits the strong negative score, and the second which describes a situation where a kid could have 
@@ -198,14 +200,13 @@ We get some interesting insights from this plot. First, that countries have thei
 
 By this plot you also see that there are common words to a lot of countries such as "politics", so one wonders what type of countries have similar speeches. Well wonder no more! Because we did it for you!
 
+<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/22.embed"></iframe>
+
+*Principal component analysis done in the words the countries use.*
 {: style="text-align: justify"}
 
-
-### TBU, to mention somewhere
-
-*First 15 minutes update might be a reason for significant biases towards countries at the forefront of reporting digital news such as 
-the UK with BBC and the US with ..?*
-
+Here you can see cluster of countries that use similar words. A principal component analysis was done on all the words the countries used. Here we did not only used the 64 positive word that we used to build our model, neither all the words GCAM offers, as the words GCAM contains are not always human readable. We used a "homemade" list of 800 words.
+{: style="text-align: justify"}
 
 <sup>
 Pedro Abranches de Figueiredo Simões de Carvalho <br>
