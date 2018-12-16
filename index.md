@@ -87,7 +87,7 @@ Do we have a saturation limit? Does increasing number of conflicts make people f
 
 
 
-### How large is our circle of empathy ? (q1 - dist and avg tone - Mar) MOIEN
+### How large is our circle of empathy ? (q1 - dist and avg tone - Mar) 
 Are we emotionally biased? Do the number of conflicts or their distance from our home define our emotions? 
 {: style="text-align: justify"}
 
@@ -132,16 +132,29 @@ a zero average tone would point towards such a situation).
 
 Analysing the semantics of a document through the words is computationally expensive. We try to overcome the computational hurdle by 
 predicting the emotions of a document by a simpler collection of features, such as the location of the event, who reported it, what kind 
-of event was it, where there religious concerns, etc. That allows to see whether the emotional reaction of the news can already be 
-predicted by just knowing basic facts of an event. 
+of event was it, where there religious concerns, how many people were implicated, etc. That allows to see whether the emotional reaction of the news can already be 
+predicted by just knowing basic facts of an event. The emotional reaction we use in the model is the tone given to the news paper article that we disretized into four categories.
 {: style="text-align: justify"}
 
-*TBU: figure of avgtone distribution and features*
+<iframe width="300" height="100" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/18.embed"></iframe>
 
-Applying a random forest machine learning algorithm and splitting on a training and test, we get an accuracy of around .. % *(TBU)*. 
+*The distribution of the tone which is reported by GDELT for each news article. We define the following categories: very negative: [-101, -10], negative: [-10, -5], mildly negative: [-5, 0], mildly positive: [0, 5], positive: [5, 100]*
+{: style="text-align: justify"}
+
+Applying a random forest machine learning algorithm and splitting on a training and test, we get an accuracy of around  56% on the test set.
 While this accuracy is very low, the model does indeed give an indication of the emotional tone of an article and outperforms a random 
-and a uniform model (a model randomly predicting one of the average tones, and a model only predicting the category “negative” which is 
-the most prevalent). However, the model is clearly not satisfying and the question of how accurate the emotional tone actually is 
+and a uniform model (the random model randomly predicts one of the average tones [42% of accuracy], and the uniform model only predicts the category “negative” which is 
+the most prevalent [49% of accuracy]). The following figure shows to what extent the individual features of the model account for the response prediction:
+{: style="text-align: justify"}
+
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/12.embed"></iframe>
+
+*The pie chart shows the importance of the features of the random forest model used to predict the tone of the articles. The most prevalent feature levels are as follows: Type of Event: [Kill, Protest, Arrest, Affect, Wound, Kidnap, Evacuation], Religion of the Actor: [Christianism, Muslim, Judaism, Buddhism], Human development index (of the country the event happened, defined by the [United Nations](http://hdr.undp.org/en/composite/HDI)): [Very High, High, Medium, Low]*
+{: style="text-align: justify"}
+
+The type of event contributes the most towards the tone an article gets, and interestingly the country that reports the event is more informative than the actual country where the event happened. 
+
+However, the model is clearly not satisfying and the question of how accurate the reported emotional tone actually is 
 remains. Naturally, one would say, that events where someone got killed are more negative, but in the dataset such events also get 
 attributed to positive emotions. On the other hand, events reporting the release of a hostages, have negative scores which looks 
 surprising. Let’s look at some examples which all have the attribute “KILL” to understand this situation:
@@ -153,22 +166,16 @@ Explanation of the polarity*
 {: style="text-align: justify"}
 
 The first news headline undoubtedly merits the strong negative score, and the second which describes a situation where a kid could have 
-possibly died but survived thanks to medical intervention, shows a positive score. The difference between this first and last example 
-can however only be captured by differences of the choice of words, where the last document indeed uses a more positive vocabulary than 
-the first document. The last example, however, results from a misclassification and shows that the word analysis is not a hundred 
-percent reliable and representative of the actual document emotion, and underlines that simple words, without the context, define the 
-tone given by the algorithm.
+possibly died but survived thanks to medical intervention, shows a positive score. Both events have similar attributes (number of people, type of events, etc.), but the context is very different. Since GDELT is using positive and negative dictionary of words to attribute the tone, and since the last document uses a more positive vocabulary than the first document, it could capture that the second news is indeed positive emotional, whereas our derived model, not knowing about all the circumstances of an event, is not able to do the distinction. The last example, however, results from a misclassification and shows that the word analysis is not a hundred 
+percent reliable and representative of the actual document emotion, and underlines that simple words, without the context, define the attributed tone of the GDELT algorithm.
 {: style="text-align: justify"}
 
-To keep things simple, and without including all the words such as the GDELT algorithm, we integrate a small collection of positive  
-words in our model. The result is striking: by only adding positive words, the accuracy could be improved by … %. *(TBU)*
+Even though the aim of our emotion model is to predict emotional reactions from some essential raw features, we try to see if we can improve our model by adding to the features some words that were used in the news article to describe the event. To keep things simple, and without including all available GCAM words **(EXPLAIN IF NOT EXPLAINED BEFORE)** such as the GDELT algorithm, we integrate a small collection of positive words in our model. The result is striking: by only adding a few positive words, the accuracy could be improved by 7%. 
 {: style="text-align: justify"}
 
-*TBU: figure of positive words*
+<img src="images/postive_words.png" alt="positive_words.png">
 
-This analysis highlights that only knowing basic facts of an event can provide a good indication of how it will be perceived in the 
-media in the different countries. However, since the emotional metrics provided by GDELT only relies on word counts and thus introduces 
-a lot of noise into the data, a precise model cannot be derived.
+This analysis highlights that only knowing basic facts of an event can provide a good indication of how it will be perceived in the media in the different countries. However, since our model uses as the response variable the emotional metrics provided by GDELT which relies on word counts and thus the data at disposition is very noisy, a precise model cannot be derived. Though, an important message from the analysis is that the choice of words used by the reporter, irrespective of the facts that are reported, determine the tone the document gets, which opens up the question, to what extent the words, and not the content, emotionally influence a human reader. 
 {: style="text-align: justify"}
 
 *TBU: plot*
