@@ -44,7 +44,7 @@ Again, it becomes visible that the dataset is biaised towards US-based events, f
 Does our emotional reaction reflect the severity of an event? 
 {: style="text-align: justify"}
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/24.embed"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/24.embed"></iframe>
 
 *The average tone of the articles reporting an event within the first 15 minutes it is first seen and the number of articles reporting 
 the event within this short period. The countries indicate where the event happened. Only a fraction of the all the GDELT events in the 
@@ -67,7 +67,7 @@ a significant number of mentions in the news are rather found on the negative si
 Do we have a saturation limit? Does increasing number of conflicts make people feel worse and worse or is there some limit?
 {: style="text-align: justify"}
 
-<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~StudentUni/47.embed"></iframe>
+<iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plot.ly/~StudentUni/47.embed"></iframe>
 
 
 *The emotion charge of a month worth of events. The events were grouped by month and country and plotted agains their emotion charge. The size of the points is referent to the y-axis value and we show a time evolution of the results.*
