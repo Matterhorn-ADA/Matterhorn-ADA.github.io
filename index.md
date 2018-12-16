@@ -180,16 +180,18 @@ This analysis highlights that only knowing basic facts of an event can provide a
 *TBU: comment the results*
 
 
-
-### Hysteric or ice queen ? (q5 - words - Ped)
+### What do the emotions say wordwise ? (q5 - words - Ped)
 Are some nations more emotional? Do we see sensitivity differences between some countries or actors?
 {: style="text-align: justify"}
+
 
 *TBU: plot*
 
 *TBU: plot description*
 
 *TBU: comment the results*
+
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/22.embed"></iframe>
 
 
 ### TBU, to mention somewhere
