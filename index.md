@@ -63,7 +63,7 @@ a significant number of mentions in the news are rather found on the negative si
 
 
 
-### How much is too much ? (q4 - bias, corr, norm - Ped)
+### How much is too much ?
 Do we have a saturation limit? Does increasing number of conflicts make people feel worse and worse or is there some limit?
 {: style="text-align: justify"}
 
@@ -74,6 +74,7 @@ Do we have a saturation limit? Does increasing number of conflicts make people f
 {: style="text-align: justify"}
 
 Before we performed an analysis based on single events, big and small, here however we see the results taking into account the events that happened in that month. What we surprisingly (or not) found, is that there are traces of a certain saturation regarding our emotions. to remember, the values you see in the y-axis, the more they stray further away from 0, the more emotional the month was. Do not see the values as an absolute value but as a relative ones. If we do this we can see that countries were more events are reported on that month (big or small events) do not go over the 0.1 value on the y-axis that often while countries with fewer events do. This lead us to believe people do have some kind of saturation, not reacting as much when there are many events.
+
 Some fun facts can be taken form this graph, see how India suddenly in august of 2016 gets all emotional! With some internet research and GDELT url we might associate this fact to a shooting that happened in a market in Balajan Tiniali.
 Also, you can see that it is more commom that when countries get more emotional, they also get less number of events. So you see a movement to the high left corner of the graph. See the growth from march 2017 to april 2017 or from october 2017 to november 2017!. Of course, when there is a big event (such as the India shooting) things get real emotional and can be an outlier in this behaviour.
 
@@ -184,7 +185,7 @@ This analysis highlights that only knowing basic facts of an event can provide a
 *TBU: comment the results*
 
 
-### What do the emotions say wordwise ? (q5 - words - Ped)
+### What do the emotions say wordwise ?
 Are some nations more emotional? Do we see sensitivity differences between some countries or actors?
 {: style="text-align: justify"}
 
