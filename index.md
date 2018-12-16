@@ -173,7 +173,7 @@ percent reliable and representative of the actual document emotion, and underlin
 Even though the aim of our emotion model is to predict emotional reactions from some essential raw features, we try to see if we can improve our model by adding to the features some words that were used in the news article to describe the event. To keep things simple, and without including all available GCAM words **(EXPLAIN IF NOT EXPLAINED BEFORE)** such as the GDELT algorithm, we integrate a small collection of positive words in our model. The result is striking: by only adding a few positive words, the accuracy could be improved by 7%. 
 {: style="text-align: justify"}
 
-<img src="images/postive_words.jpg" alt="positive_words">
+<img src="images/postive_words.jpg" alt="positive_words", width="300">
 *Positive words that were included as features into the random forest model.*
 {: style="text-align: justify"}
 
