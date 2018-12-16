@@ -29,6 +29,8 @@ q2 - number of articles per country - us
 
 <iframe src="//plot.ly/~matterhorn_ada/3.embed" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
 
+*The number of events reported in the period 2015-2017 are grouped by the countries where they happened and the number of articles sums up all the GDELT news articles these events received. Typically, an event is mentioned in about 5 to 10 news articles, but this number can exceed 100 and more. The size of the bubbles is proportional to the population of the country.*
+{: style="text-align: justify"}
 
 ### How much is too much?
 Do we have a saturation limit? Does increasing number of conflicts make people feel worse and worse or is there some limit?
