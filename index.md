@@ -22,9 +22,8 @@ On the map we can see the number of news sources per country (on logarithmic sca
 {: style="text-align: justify"}
 
 
-### Do we care about all?
+### Do we care about all? (q2 - no of articles / country)
 Are some countries ignored in the news? Is the number of conflicts taking place in a country in relation with the number of mentions in the media depending on where the conflict has happened?
-q2 - number of articles per country - us
 {: style="text-align: justify"}
 
 <iframe src="//plot.ly/~matterhorn_ada/3.embed" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
@@ -32,29 +31,30 @@ q2 - number of articles per country - us
 *The number of events reported in the period 2015-2017 are grouped by the countries where they happened and the number of articles sums up all the GDELT news articles these events received. Typically, an event is mentioned in about 5 to 10 news articles, but this number can exceed 100 and more. The size of the bubbles is proportional to the population of the country.*
 {: style="text-align: justify"}
 
-### How much is too much?
+
+### How much is too much? (q4 - bias, corr, norm)
 Do we have a saturation limit? Does increasing number of conflicts make people feel worse and worse or is there some limit?
-q4 - we know there's this bias, correction by year and month, normalization
 {: style="text-align: justify"}
+
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~StudentUni/3.embed"></iframe>
 
 
-### How large is our circle of empathy?
+### How large is our circle of empathy? (q1 - dist and avg tone)
 Are we emotionally biased? Do the number of conflicts or their distance from our home define our emotions? 
-q1 - distance and avaregage tone
 {: style="text-align: justify"}
 
 
-### Hysteric or ice queen?
-Are some nations more emotional? Do we see sensitivity differences between some countries or actors?
-q5 - words and similarity of countries
-{: style="text-align: justify"}
-
-
-### Are we emotionally predictable?
+### Are we emotionally predictable? (q3 - model)
 Can we observe patterns of emotions with respect to a country, religion or an ethnical group? Can we derive a model predicting emotions in case of a new conflict based on its specific features?
-q3 - countries reacting to event, avg tone, two cases different avg tone
 {: style="text-align: justify"}
+
+
+### Hysteric or ice queen? (q5 - words)
+Are some nations more emotional? Do we see sensitivity differences between some countries or actors?
+{: style="text-align: justify"}
+
+
+
 
 
 
