@@ -34,7 +34,7 @@ q2 - number of articles per country - us
 Do we have a saturation limit? Does increasing number of conflicts make people feel worse and worse or is there some limit?
 q4 - we know there's this bias, correction by year and month, normalization
 {: style="text-align: justify"}
-<iframe src="https://matterhorn-ada.github.io/q4-saturation.html" width="100%" height="400px" frameBorder="0" scrolling="no"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~StudentUni/3.embed"></iframe>
 
 
 ### How large is our circle of empathy?
