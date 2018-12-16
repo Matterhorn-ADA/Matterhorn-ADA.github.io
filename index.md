@@ -43,6 +43,17 @@ Do we have a saturation limit? Does increasing number of conflicts make people f
 Are we emotionally biased? Do the number of conflicts or their distance from our home define our emotions? 
 {: style="text-align: justify"}
 
+If it is not the importance of an event that shapes the emotional tone of an article, is there maybe another feature? From the previous analysis, we gathered that it is rather difficult to associate emotions to events, and that the overall positiveness and negativity of an event might be washed out if calculated by an aggregation of several news sources. We thus dig a step further, and focus on the individual news article reporting an event and we try to see whether the distance between an event and the news article source influence how we perceive the incident. We define an emotional charge which integrates the polarity and the tone of an individual article and look for a trend when plotted against the geographic distance of event and source location. 
+{: style="text-align: justify"}
+
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/6.embed"></iframe>
+
+*The emotional charge of an article (measure of polarity and tone) vs the geographic distance between an event and the news source calculated by the Great-Circle distance formula. Only a fraction of the all the GDELT events in the 2015-2017 period is plotted (0.01%).*
+{: style="text-align: justify"}
+
+The figure speaks for itself: the number of kilometres separating the event and the source is not in relation with the emotional charge. What about the instinctive impression that controversial events accompanied with emotional debates reach a larger fraction of the population? If we have a closer look at the figure, we see that events occurring in countries where generally a lot of events occur and which are rather countries playing an important role in the international politics have a higher chance to be mentioned all around the globe, than events happening in countries less known in the world (as example, we chose Malawi, a small African country). Hence, it seems as if a breaking news, independent of how emotional or not it is, can reach a large number of people.
+{: style="text-align: justify"}
+
 
 ### Are we emotionally predictable? (q3 - model)
 Can we observe patterns of emotions with respect to a country, religion or an ethnical group? Can we derive a model predicting emotions in case of a new conflict based on its specific features?
