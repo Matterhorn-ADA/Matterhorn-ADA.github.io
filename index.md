@@ -17,8 +17,10 @@ In our data story we explore conflicts all over the world and the public attenti
 ### Where the news come from ? (Mat)
 
 <iframe src="https://matterhorn-ada.github.io/urls-log.html" width="100%" height="400px" frameBorder="0" scrolling="no"></iframe>
-<br>
-On the map we can see the number of news sources per country (on logarithmic scale) from whose GDELT collects the data. The USA outranks other countries massively creating a great bias in our dataset which we further deal with. There is obviously a strong relation between the number of news servers and the significance of the country in the world politics.
+*GDELT harnesses numerous online news sources and most of them are connected to a particular country. Tha map show the number of sources per country on a logarithmic scale.*
+{: style="text-align: justify"}
+
+We can clearly see that the USA outranks other countries massively creating a great bias in our dataset which we further deal with. On the other hand, most of Africa and little populated areas such as Greenland show much lower representation by news sources which might lead to lower coverage of local events, a thing we dig into more later. There is obviously a strong relation between the number of news servers and the significance of the country in the world politics. 
 {: style="text-align: justify"}
 
 
