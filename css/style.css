@@ -1,0 +1,10 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.container {
+  max-width: 825px;
+  margin: 0 auto;
+  padding: 0 0.75rem;
+}
