@@ -14,7 +14,7 @@ In our data story we explore conflicts all over the world and the public attenti
 {: style="text-align: justify"}
 
 
-### Where the news come from ?
+### Where the news come from ? (Mat)
 
 <iframe src="https://matterhorn-ada.github.io/urls-log.html" width="100%" height="400px" frameBorder="0" scrolling="no"></iframe>
 <br>
@@ -22,7 +22,7 @@ On the map we can see the number of news sources per country (on logarithmic sca
 {: style="text-align: justify"}
 
 
-### Do we care about all? (q2 - no of articles / country)
+### Do we care about all ? (q2 - no of articles / country - Mar)
 Are some countries ignored in the news? Is the number of conflicts taking place in a country in relation with the number of mentions in the media depending on where the conflict has happened?
 {: style="text-align: justify"}
 
@@ -32,14 +32,24 @@ Are some countries ignored in the news? Is the number of conflicts taking place 
 {: style="text-align: justify"}
 
 
-### How much is too much? (q4 - bias, corr, norm)
+### Are emotions a measure of importance ? (new question - Mar)
+We expect that high-impact events are associated with a larger spectrum of emotions, and that events such as an unexpected terror attack which affect a large number of people and which are spread rapidly in the news could be frequently seen in the GDELT dataset. However, as seen in the figure XX, events tend to be labelled as emotionally neutral when reaching a certain level of importance. On the other hand, minor events reported by only a few sources are having a much larger variation in the reporting tone. While this might sound surprising at first, there might be a simple underlying explanation: averaging the document tone over all kind of news articles, from neutral news agency reports, to more emotional boulevard articles, results in an average tone which tends to lose the distinct emotions of the individual sources. Nonetheless, the figure reveals that in general the news tend to more negative than positive, and events with a significant number of mentions in the news are rather found on the negative side of the distribution.
+{: style="text-align: justify"}
+
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/8.embed"></iframe>
+
+*The average tone of the articles reporting an event within the first 15 minutes it is first seen and the number of articles reporting the event within this short period. The countries indicate where the event happened. Only a fraction of the all the GDELT events in the 2015-2017 period is plotted (0.01%).*
+{: style="text-align: justify"}
+
+
+### How much is too much ? (q4 - bias, corr, norm - Ped)
 Do we have a saturation limit? Does increasing number of conflicts make people feel worse and worse or is there some limit?
 {: style="text-align: justify"}
 
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~StudentUni/3.embed"></iframe>
 
 
-### How large is our circle of empathy? (q1 - dist and avg tone)
+### How large is our circle of empathy ? (q1 - dist and avg tone - Mar)
 Are we emotionally biased? Do the number of conflicts or their distance from our home define our emotions? 
 {: style="text-align: justify"}
 
@@ -55,12 +65,12 @@ The figure speaks for itself: the number of kilometres separating the event and 
 {: style="text-align: justify"}
 
 
-### Are we emotionally predictable? (q3 - model)
+### Are we emotionally predictable ? (q3 - model - Mar)
 Can we observe patterns of emotions with respect to a country, religion or an ethnical group? Can we derive a model predicting emotions in case of a new conflict based on its specific features?
 {: style="text-align: justify"}
 
 
-### Hysteric or ice queen? (q5 - words)
+### Hysteric or ice queen ? (q5 - words - Ped)
 Are some nations more emotional? Do we see sensitivity differences between some countries or actors?
 {: style="text-align: justify"}
 
