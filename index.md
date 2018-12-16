@@ -80,8 +80,7 @@ Analysing the semantics of a document through the words is computationally expen
 Applying a random forest machine learning algorithm and splitting on a training and test, we get an accuracy of around .. %. While this accuracy is very low, the model does indeed give an indication of the emotional tone of an article and outperforms a random and a uniform model (a model randomly predicting one of the average tones, and a model only predicting the category “negative” which is the most prevalent). However, the model is clearly not satisfying and the question of how accurate the emotional tone actually is remains. Naturally one would say, that events where someone got killed are more negative, but in the dataset such events also get attributed to positive emotions. On the other hand, events reporting the release of a hostages, have negative scores which looks surprising. Let’s look at some examples which all have the attribute “KILL” to understand this situation:
 {: style="text-align: justify"}
 
-*TBD: image of articles*
-
+<img src="images/articles.jpg" alt="articles">
 *News headline taken from the GDELT dataset. Indicated is the measured tone of the article and its polarity in parentheses. TBD: Explanation of the polarity?*
 {: style="text-align: justify"}
 
