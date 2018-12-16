@@ -205,7 +205,7 @@ By this plot you also see that there are common words to a lot of countries such
 *Principal component analysis done in the words the countries use.*
 {: style="text-align: justify"}
 
-Here you can see cluster of countries that use similar words. A principal component analysis was done on all the words the countries used. Here we did not only used the 64 positive word that we used to build our model, neither all the words GCAM offers, as the words GCAM contains are not always human readable. We used a "homemade" list of 800 words.
+Here you can see cluster of countries that use similar words. A principal component analysis was done on all the words the countries used. Here we did not only used the 64 positive word that we used to build our model, neither all the words GCAM offers, as the words GCAM contains are not always human readable. We used a "homemade" list of 800 words. 
 {: style="text-align: justify"}
 
 <sup>
