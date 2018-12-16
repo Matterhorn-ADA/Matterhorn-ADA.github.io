@@ -69,9 +69,13 @@ Do we have a saturation limit? Does increasing number of conflicts make people f
 
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~StudentUni/47.embed"></iframe>
 
-*TBU: plot description*
 
-*TBU: comment the results*
+*The emotion charge of a month worth of events. The events were grouped by month and country and plotted agains their emotion charge. The size of the points is referent to the y-axis value and we show a time evolution of the results.*
+{: style="text-align: justify"}
+
+Before we performed an analysis based on single events, big and small, here however we see the results taking into account the events that happened in that month. What we surprisingly (or not) found, is that there are traces of a certain saturation regarding our emotions. to remember, the values you see in the y-axis, the more they stray further away from 0, the more emotional the month was. Do not see the values as an absolute value but as a relative ones. If we do this we can see that countries were more events are reported on that month (big or small events) do not go over the 0.1 value on the y-axis that often while countries with fewer events do. This lead us to believe people do have some kind of saturation, not reacting as much when there are many events.
+Some fun facts can be taken form this graph, see how India suddenly in august of 2016 gets all emotional! With some internet research and GDELT url we might associate this fact to a shooting that happened in a market in Balajan Tiniali.
+Also, you can see that it is more commom that when countries get more emotional, they also get less number of events. So you see a movement to the high left corner of the graph. See the growth from march 2017 to april 2017 or from october 2017 to november 2017!. Of course, when there is a big event (such as the India shooting) things get real emotional and can be an outlier in this behaviour.
 
 
 
@@ -184,14 +188,16 @@ This analysis highlights that only knowing basic facts of an event can provide a
 Are some nations more emotional? Do we see sensitivity differences between some countries or actors?
 {: style="text-align: justify"}
 
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~StudentUni/48.embed"></iframe>
 
-*TBU: plot*
+*We make use of the GCAM feature in GDELT to associate certain words with countries. This plot represents some of the most used words by these countries.*
+{: style="text-align: justify"}
 
-*TBU: plot description*
+We get some interesting insights from this plot. First, that countries have their specific speech. You see that the words used by the US differs a lot by the ones used by Jamaica or Mexico. Then we can also see some relation between the words. Take per example Mexico, kill and death are present on its speech, but in none of the other 4 countries analysed!. We can see that this words relate to some emotionalitty from when we were looking for a saturation limit. The Syrian Arab Republic uses words, that we humans might consider more emotional, such as "love" or "music", while Sweden focus on "power" and "captivation", and thus when looking and the graph of saturation only choosing Asia region countries, you do see that the Syrian Arab Republic is more emotional in general than the others. This relation shows the power of a good analysis of this dataset.
 
-*TBU: comment the results*
+By this plot you also see that there are common words to a lot of countries such as "politics", so one wonders what type of countries have similar speeches. Well wonder no more! Because we did it for you!
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/22.embed"></iframe>
+{: style="text-align: justify"}
 
 
 ### TBU, to mention somewhere
