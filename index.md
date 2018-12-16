@@ -193,7 +193,7 @@ Are some nations more emotional? Do we see sensitivity differences between some 
 
 <iframe width="100%"  height="650" frameborder="0" scrolling="no" src="//plot.ly/~StudentUni/50.embed"></iframe>
 
-*We make use of the GCAM feature in GDELT to associate certain words with countries. This plot represents some of the most used words by these countries.*
+*We make use of the GCAM feature in GDELT to associate certain words with countries. This plot represents some of the most used words by these countries. The size of the points is referent to the year of that country, smallest size is smallest year (2015), bigger points are referent to 2017.*
 {: style="text-align: justify"}
 
 We get some interesting insights from this plot. First, that countries have their specific speech. You see that the words used by the US differs a lot by the ones used by Jamaica or Mexico. Then we can also see some relation between the words. Take per example Mexico, kill and death are present on its speech, but in none of the other 4 countries analysed!. We can see that this words relate to some emotionalitty from when we were looking for a saturation limit. The Syrian Arab Republic uses words, that we humans might consider more emotional, such as "love" or "music", while Sweden focus on "power" and "captivation", and thus when looking and the graph of saturation only choosing Asia region countries, you do see that the Syrian Arab Republic is more emotional in general than the others. This relation shows the power of a good analysis of this dataset.
@@ -202,10 +202,11 @@ By this plot you also see that there are common words to a lot of countries such
 
 <iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/22.embed"></iframe>
 
-*Principal component analysis done in the words the countries use.*
+*Principal component analysis done for the words the countries use. We used principal component 3 and 4 as they were the more relevant. Each dot represents a country*
 {: style="text-align: justify"}
 
-Here you can see cluster of countries that use similar words. A principal component analysis was done on all the words the countries used. Here we did not only used the 64 positive word that we used to build our model, neither all the words GCAM offers, as the words GCAM contains are not always human readable. We used a "homemade" list of 800 words. 
+Here you can see cluster of countries that use similar words. A principal component analysis was done on all the words the countries used. Here we did not only used the 64 positive word that we used to build our model, neither all the words GCAM offers, as the words GCAM contains are not always human readable. We used a "homemade" list of 800 words and with them we can see some interesting clusters!
+
 {: style="text-align: justify"}
 
 <sup>
