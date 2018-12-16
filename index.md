@@ -5,7 +5,7 @@ layout: default
 ## Let's get emotional, we already got physical..
 
 In our data story we explore conflicts all over the world and the public attention they receive. We harness the huge [GDELT 2.0](https://www.gdeltproject.org/) dataset consisting of events collected every day from thousands media channels of the world's news. We 
-focus on sentiment analysis, on the emotions conflicts tend to arouse with respect to their distinct features. We ask ourselves 
+focus on sentiment analysis, and on the emotions conflicts tend to arouse with respect to their distinct features. We ask ourselves 
 questions such as whether some regions are payed more attention than others, if news articles get more emotionally involved in conflicts 
 occuring closer to our homes, or whether we tend to depict particular regions, nations or ethnicities by some steady emotional patterns. 
 Throughout our research we hope to lift the shroud of how equally media report on the worlds conflicts and whether some bias exists.
@@ -40,7 +40,7 @@ Are some countries ignored in the news? Is the number of conflicts taking place 
 Again, it becomes visible that the dataset is biaised towards US-based events, followed by UK events after a big gap. Interestingly, there is a perfect correlation between the number of events happening and the number of articles that are reported (which becomes more evident when zooming in the figure). However, the number of people living in a country do not significantly influence the number of events, except for the very low-populated countries which tend to be in the left corner of the plot. This relation between the number of published articles and the number of events can be explained by the fact, that once the news reaches the web, it spreads in a more or less even fashion among the GDELT news sources, independent from where it originates. Hence, to answer the question whether some countries are ignored in the news, we tend to say no, however, some countries, such as the UK and the US, are comparewise overrepresented, which raises the questions what distinct features does an event require to be actually reported in a news source.
 {: style="text-align: justify"}
 
-This continuous bias that we see regarding the UK and the US might be due to the fact that only first 15 minutes of event reportage are accounted when something happens, so major news sources there are at the forefront of reporting digital news such as the BBC or Fox News and CNN, are the main contributors for the events accounted.
+This continuous bias that we see regarding the UK and the US might be due to the fact that only the first 15 minutes of event reportage are accounted when something happens, so major news sources that are at the forefront of reporting digital news such as the BBC or Fox News and CNN, are the main contributors for the accounted events.
 {: style="text-align: justify"}
 
 ### Are emotions a measure of importance ?
@@ -60,7 +60,7 @@ as seen in the figure above, events tend to be labelled as emotionally neutral w
 other hand, minor events reported by only a few sources are having a much larger variation in the reporting tone. While this might sound 
 surprising at first, there may very well be a simple explanation: averaging the document tone over all kind of news articles, from 
 neutral news agency reports, to more emotional boulevard articles, results in an average tone which tends to lose the distinct emotions 
-of the individual sources. Nonetheless, the figure reveals that in general the news tend to more negative than positive, and events with 
+of the individual sources. Nonetheless, the figure reveals that in general the news tend to be more negative than positive, and events with 
 a significant number of mentions in the news are rather found on the negative side of the distribution.
 {: style="text-align: justify"}
 
@@ -76,11 +76,11 @@ Do we have a saturation limit? Does increasing number of conflicts make people f
 *The emotion charge of a month worth of events. The events were grouped by month and country and plotted agains their emotion charge. The size of the points is referent to the y-axis value and we show a time evolution of the results.*
 {: style="text-align: justify"}
 
-Before we performed an analysis based on single events, big and small, here however we see the results taking into account the events that happened in that month. What we surprisingly (or not) found, is that there are traces of a certain saturation regarding our emotions. to remember, the values you see in the y-axis, the more they stray further away from 0, the more emotional the month was. Do not see the values as an absolute value but as a relative ones. If we do this we can see that countries were more events are reported on that month (big or small events) do not go over the 0.1 value on the y-axis that often while countries with fewer events do. This lead us to believe people do have some kind of saturation, not reacting as much when there are many events.
+Up to now we performed an analysis based on single events, big and small ones, here, however, we see the results when taking into account all the events that happened during a month in a country. What we surprisingly (or not) find, is that there are traces of a certain saturation regarding our emotions. To remember, the values you see onn the y-axis, the more they stray further away from 0, the more emotional the month was. Do not consider the values as an absolute value but as a relative one. If we do so, we can see that countries where more events are reported during a given month (big or small events) do not reach a value over 0.1 very often while countries with fewer events do. This lead us to believe people do have some kind of saturation, not reacting as much when there are many events.
 {: style="text-align: justify"}
 
-Some interesting observations can be taken form this graph, see how India suddenly in august of 2016 gets all emotional! With some internet research and GDELT url we might associate this fact to a shooting that happened in a market in Balajan Tiniali.
-Also, you can see that it is more commom that when countries get more emotional, they also get less number of events. So you see a movement to the high left corner of the graph. See the growth from march 2017 to april 2017 or from october 2017 to november 2017!. Of course, when there is a big event (such as the India shooting) things get real emotional and can be an outlier in this behaviour.
+Some interesting observations can be taken from this graph, as for instance how India suddenly in August 2016 gets all emotional! With some internet research and GDELT url analysis we might associate this fact to a shooting that happened in a market in Balajan Tiniali.
+Also, you can see that it is more common that when countries get more emotional, there is also a lower number of events which is seen by an important movement in the high left corner of the graph. For instance, there is a growth from March 2017 to April 2017 or from October 2017 to November 2017. Of course, when there is a big event (such as the India shooting) things get real emotional and can be an outlier in this behaviour. 
 {: style="text-align: justify"}
 
 
@@ -89,11 +89,11 @@ Are we emotionally biased? Do the number of conflicts or their distance from our
 {: style="text-align: justify"}
 
 If it is not the importance of an event that shapes the emotional tone of an article, is there maybe another feature? From the previous 
-analysis, we gathered that it is rather difficult to associate emotions to events, and that the overall positiveness and negativity of 
-an event might be washed out if calculated by an aggregation of several news sources. We thus dig a step further, and focus on the 
+analysis, we gathered that it is rather difficult to associate emotions to the importance of an event, and that the overall positiveness and negativity of 
+an event, as reported by the average tone, might be washed out if calculated by an aggregation of several news sources. We thus dig a step further, and focus on the 
 individual news article reporting an event and we try to see whether the distance between an event and the news article source influence 
 how we perceive the incident. We define an emotional charge which integrates the polarity and the tone of an individual article and look 
-for a trend when plotted against the geographic distance of event and source location. 
+for a trend when plotted against the geographic distance of an event and its news source location. 
 {: style="text-align: justify"}
 
 <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/6.embed"></iframe>
@@ -109,7 +109,7 @@ population? If we have a closer look at the figure, we see that events occurring
 which are rather countries playing an important role in the international politics have a higher chance to be mentioned all around the 
 globe, than events happening in countries less known in the world (as example, we chose Malawi, a small African country). Hence, it 
 seems as if a breaking news, independent of how emotional or not it is, can reach a large number of people. On the other hand, if we 
-look for example at India, we see that it receives a lot of attention in its surroundings but much less further.
+look for example at India, we see that it receives a lot of attention in its surroundings but much less further away.
 {: style="text-align: justify"}
 
 
@@ -130,7 +130,7 @@ a zero average tone would point towards such a situation).
 Analysing the semantics of a document through the words is computationally expensive. We try to overcome the computational hurdle by 
 predicting the emotions of a document by a simpler collection of features, such as the location of the event, who reported it, what kind 
 of event was it, where there religious concerns, how many people were implicated, etc. That allows to see whether the emotional reaction of the news can already be 
-predicted by just knowing basic facts of an event. The emotional reaction we use in the model is the tone given to the news paper article that we disretized into four categories.
+predicted by just knowing basic facts of an event. The emotional reaction we use in the model is the tone given to the news paper article that we discretized into five categories.
 {: style="text-align: justify"}
 
 <p align="center">
@@ -148,7 +148,7 @@ the most prevalent [49% of accuracy]). The following figure shows to what extent
 <p align="center">
 <iframe width="600" height="600" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/12.embed"></iframe>
 </p>
-*The pie chart shows the importance of the features of the random forest model used to predict the tone of the articles. The most prevalent feature levels are as follows: Type of Event: [Kill, Protest, Arrest, Affect, Wound, Kidnap, Evacuation], Religion of the Actor: [Christianism, Muslim, Judaism, Buddhism], Human development index (of the country the event happened, defined by the [United Nations](http://hdr.undp.org/en/composite/HDI)): [Very High, High, Medium, Low]*
+*The pie chart shows the importance of the features of the random forest model used to predict the tone of the articles. The most prevalent feature levels are as follows: Type of Event: [Kill, Protest, Arrest, Affect, Wound, Kidnap, Evacuation], Religion of the Actor: [Christianism, Muslim, Judaism, Buddhism], Human development index (of the country the event happened, defined by the [United Nations](http://hdr.undp.org/en/composite/HDI)) as a function of the GDP, the health and the educational status of a country: [Very High, High, Medium, Low]*
 {: style="text-align: justify"}
 
 The type of event contributes the most towards the tone an article gets, and interestingly the country that reports the event is more informative than the actual country where the event happened. 
@@ -165,11 +165,11 @@ surprising. Let’s look at some examples which all have the attribute “KILL�
 {: style="text-align: justify"}
 
 The first news headline undoubtedly merits the strong negative score, and the second which describes a situation where a kid could have 
-possibly died but survived thanks to medical intervention, shows a positive score. Both events have similar attributes (number of people, type of events, etc.), but the context is very different. Since GDELT is using positive and negative dictionary of words to attribute the tone, and since the last document uses a more positive vocabulary than the first document, it could capture that the second news is indeed positive emotional, whereas our derived model, not knowing about all the circumstances of an event, is not able to do the distinction. The last example, however, results from a misclassification and shows that the word analysis is not a hundred 
+possibly died but survived thanks to medical intervention, shows a positive score. Both events have similar attributes (number of people, type of events, etc.), but the context is very different. Since GDELT is using positive and negative dictionaries of words to attribute the tone, and since the last document uses a more positive vocabulary than the first document, it could capture that the second news is indeed positive emotional, whereas our derived model, not knowing about all the circumstances of an event, is not able to do the distinction. The last example, however, results from a misclassification and shows that the word analysis is not a hundred 
 percent reliable and representative of the actual document emotion, and underlines that simple words, without the context, define the attributed tone of the GDELT algorithm.
 {: style="text-align: justify"}
 
-Even though the aim of our emotion model is to predict emotional reactions from some essential raw features, we try to see if we can improve our model by adding to the features some words that were used in the news article to describe the event. To keep things simple, and without including all available GCAM words, the words that GDELT searches referent to some event regarding specific dictionaries, such as the GDELT algorithm, we integrate a small collection of positive words in our model. The result is striking: by only adding a few positive words, the accuracy could be improved by 7%. 
+Even though the aim of our emotion model is to predict emotional reactions from some essential raw features, we try to see if we can improve our model by adding to the features some words that were used in the news article to describe the event. To keep things simple, and without including all available GCAM words, the words that GDELT searches referent to some event regarding specific dictionaries, we integrate a small collection of positive words in our model. The result is striking: by only adding a few positive words, the accuracy could be improved by 7%. 
 {: style="text-align: justify"}
 
 <p align="center">
@@ -179,7 +179,7 @@ Even though the aim of our emotion model is to predict emotional reactions from 
 {: style="text-align: justify"}
 
 
-This analysis highlights that only knowing basic facts of an event can provide a good indication of how it will be perceived in the media in the different countries. However, since our model uses as the response variable the emotional metrics provided by GDELT which relies on word counts and thus the data at disposition is very noisy, a precise model cannot be derived. Though, an important message from the analysis is that the choice of words used by the reporter, irrespective of the facts that are reported, determine the tone the document gets, which opens up the question, to what extent the words, and not the content, emotionally influence a human reader. 
+This analysis highlights that only knowing basic facts of an event can provide a good indication of how it will be perceived in the media in the different countries. However, since our model uses as the response variable the emotional metrics provided by GDELT which relies on word counts and thus the data at disposition is very noisy, a precise model cannot be derived. Though, an important message from the analysis is that the choice of words used by the reporter, irrespective of the facts that are reported, determine the tone the document gets attributed by GDELT, which opens up the question, to what extent the words, and not the content, emotionally influence a human reader. 
 {: style="text-align: justify"}
 
 
@@ -189,22 +189,20 @@ Are some nations more emotional? Do we see sensitivity differences between some 
 
 <iframe width="100%"  height="650" frameborder="0" scrolling="no" src="//plot.ly/~StudentUni/50.embed"></iframe>
 
-*We make use of the GCAM feature in GDELT to associate certain words with countries. This plot represents some of the most used words by these countries. The size of the points is referent to the year of that country, smallest size is smallest year (2015), bigger points are referent to 2017.*
+*We make use of the GCAM feature in GDELT to associate certain words with countries. This plot represents some of the most used words by these countries. The size of the points refers to the year of that country (small (2015), medium (2016), big (2017)).*
 {: style="text-align: justify"}
 
-We get some interesting insights from this plot. First, that countries have their specific speech. You see that the words used by the US differs a lot by the ones used by Jamaica or Mexico. Then we can also see some relation between the words. Take per example Mexico, kill and death are present on its speech, but in none of the other 4 countries analysed!. We can see that this words relate to some emotionalitty from when we were looking for a saturation limit. The Syrian Arab Republic uses words, that we humans might consider more emotional, such as "love" or "music", while Sweden focus on "power" and "captivation", and thus when looking and the graph of saturation only choosing Asia region countries, you do see that the Syrian Arab Republic is more emotional in general than the others. This relation shows the power of a good analysis of this dataset.
+We get some interesting insights from this plot. First, we see that countries have their specific speech. You see that the words used by the US differs a lot by the ones used by Jamaica or Mexico. In addition, we notice some relations between the words. Looking for example at Mexico, the words "kill" and "death" are counted a lot in the articles, but none of them is used in the other 4 countries! The Syrian Arab Republic uses words, that a human reader might consider to be more emotional, such as "love" or "music", while Sweden focus on "power" and "captivation". When looking at the graph of saturation, and when only choosing Asian region countries, we do see that the Syrian Arab Republic is more emotional in general than the other countries. These relations show the potential of a thorough semantical analysis of this dataset, which could reveal many more interesting cultural differences and similarities between the countries in the world.
 {: style="text-align: justify"}
 
-By this plot you also see that there are common words to a lot of countries such as "politics", so one wonders what type of countries have similar speeches. Well wonder no more! Because we did it for you!
+In the following plot we see that most of the countries cluster together, which is expected, since news articles use a lot of common words, such as for instance the word "politics". Some countries tend to form small group of clusters, but no clear trend can be identified, which can probably be explained by the fact that we base our analysis on a constructed list of 800 words and not on the whole GCAM words which are not all interpretable.
 {: style="text-align: justify"}
 
 <iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/22.embed"></iframe>
 
-*Principal component analysis done for the words the countries use. We used principal component 3 and 4 as they were the more relevant. Each dot represents a country*
+*Principal component analysis of the word counts by country. We show the principal components 3 and 4 as they show more variance in the data than the first two. Each dot represents a country*
 {: style="text-align: justify"}
 
-Here you can see cluster of countries that use similar words. A principal component analysis was done on all the words the countries used. Here we did not only used the 64 positive word that we used to build our model, neither all the words GCAM offers, as the words GCAM contains are not always human readable. We used a "homemade" list of 800 words and with them we can see some interesting clusters!
-{: style="text-align: justify"}
 
 <sup>
 Pedro Abranches de Figueiredo Simões de Carvalho <br>
