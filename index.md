@@ -29,20 +29,16 @@ servers and the significance of the country in the world politics.
 
 
 ### Do we care about all ? (q2 - no of articles / country - Mar)
-Are some countries ignored in the news? Is the number of conflicts taking place in a country in relation with the number of mentions in 
-the media? Does it depend on where the conflict has happened?
+Are some countries ignored in the news? Is the number of conflicts taking place in a country in relation with the number of mentions in the media? Does it depend on where the conflict has happened?
 {: style="text-align: justify"}
 
 <iframe src="//plot.ly/~matterhorn_ada/3.embed" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
 
-*The number of events reported in the period 2015-2017 are grouped by the countries where they happened and the number of articles sums 
-up all the GDELT news articles about these events. Typically, an event is mentioned in about 5 to 10 news articles, but this number can 
-exceed 100. The size of the bubbles is proportional to the population of the country.*
+*The number of events reported in the period 2015-2017 are grouped by the countries where they happened and the number of articles sums up all the GDELT news articles about these events. Typically, an event is mentioned in about 5 to 10 news articles, but this number can exceed 100. The size of the bubbles is proportional to the population of the country.*
 {: style="text-align: justify"}
 
-*TBU: comment the results*
-
-
+Again, it becomes visible that the dataset is biaised towards US-based events, followed by UK events after a big gap. Interestingly, there is a perfect correlation between the number of events happening and the number of articles that are reported (which becomes more evident when zooming in the figure). However, the number of people living in a country do not significantly influence the number of events, except for the very low-populated countries which tend to be in the left corner of the plot. This relation between the number of published articles and the number of events can be explained by the fact, that once the news reaches the web, it spreads in a more or less even fashion among the GDELT news sources, independent from where it originates. Hence, to answer the question whether some countries are ignored in the news, we tend to say no, however, some countries, such as the UK and the US, are comparewise overrepresented, which raises the questions what distinct features does an event require to be actually reported in a news source.
+{: style="text-align: justify"}
 
 ### Are emotions a measure of importance ? (new question - Mar)
 Does our emotional reaction reflect the severity of an event? 
@@ -141,7 +137,7 @@ the most prevalent [49% of accuracy]). The following figure shows to what extent
 {: style="text-align: justify"}
 
 <p align="center">
-<iframe width="500" height="400" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/12.embed"></iframe>
+<iframe width="600" height="600" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/12.embed"></iframe>
 </p>
 *The pie chart shows the importance of the features of the random forest model used to predict the tone of the articles. The most prevalent feature levels are as follows: Type of Event: [Kill, Protest, Arrest, Affect, Wound, Kidnap, Evacuation], Religion of the Actor: [Christianism, Muslim, Judaism, Buddhism], Human development index (of the country the event happened, defined by the [United Nations](http://hdr.undp.org/en/composite/HDI)): [Very High, High, Medium, Low]*
 {: style="text-align: justify"}
