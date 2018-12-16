@@ -136,7 +136,7 @@ of event was it, where there religious concerns, how many people were implicated
 predicted by just knowing basic facts of an event. The emotional reaction we use in the model is the tone given to the news paper article that we disretized into four categories.
 {: style="text-align: justify"}
 
-<iframe width="500" height="300" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/18.embed"></iframe>
+<iframe width="600" height="400" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/18.embed"></iframe>
 
 *The distribution of the tone which is reported by GDELT for each news article. We define the following categories: very negative: [-101, -10], negative: [-10, -5], mildly negative: [-5, 0], mildly positive: [0, 5], positive: [5, 100]*
 {: style="text-align: justify"}
@@ -147,8 +147,9 @@ and a uniform model (the random model randomly predicts one of the average tones
 the most prevalent [49% of accuracy]). The following figure shows to what extent the individual features of the model account for the response prediction:
 {: style="text-align: justify"}
 
-<iframe width="700" height="600" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/12.embed"></iframe>
-
+<p align="center">
+<iframe width="500" height="400" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/12.embed"></iframe>
+</p>
 *The pie chart shows the importance of the features of the random forest model used to predict the tone of the articles. The most prevalent feature levels are as follows: Type of Event: [Kill, Protest, Arrest, Affect, Wound, Kidnap, Evacuation], Religion of the Actor: [Christianism, Muslim, Judaism, Buddhism], Human development index (of the country the event happened, defined by the [United Nations](http://hdr.undp.org/en/composite/HDI)): [Very High, High, Medium, Low]*
 {: style="text-align: justify"}
 
