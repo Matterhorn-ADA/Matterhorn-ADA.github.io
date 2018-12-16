@@ -48,6 +48,8 @@ up all the GDELT news articles about these events. Typically, an event is mentio
 exceed 100. The size of the bubbles is proportional to the population of the country.*
 {: style="text-align: justify"}
 
+*TBU: comment the results*
+
 
 
 ### Are emotions a measure of importance ? (new question - Mar)
@@ -77,7 +79,7 @@ a significant number of mentions in the news are rather found on the negative si
 Do we have a saturation limit? Does increasing number of conflicts make people feel worse and worse or is there some limit?
 {: style="text-align: justify"}
 
-<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~StudentUni/14.embed"></iframe>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~StudentUni/47.embed"></iframe>
 
 *TBU: plot description*
 
@@ -169,11 +171,23 @@ media in the different countries. However, since the emotional metrics provided 
 a lot of noise into the data, a precise model cannot be derived.
 {: style="text-align: justify"}
 
+*TBU: plot*
+
+*TBU: plot description*
+
+*TBU: comment the results*
+
 
 
 ### Hysteric or ice queen ? (q5 - words - Ped)
 Are some nations more emotional? Do we see sensitivity differences between some countries or actors?
 {: style="text-align: justify"}
+
+*TBU: plot*
+
+*TBU: plot description*
+
+*TBU: comment the results*
 
 
 
