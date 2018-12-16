@@ -4,14 +4,6 @@ layout: default
 
 ## Let's get emotional, we already got physical..
 
-<sup>
-Marie Sadler <br>
-Pedro Abranches de Figueiredo Simões de Carvalho <br>
-Matyas Lustig <br>
-</sup>
-
-
-
 In our data story we explore conflicts all over the world and the public attention they receive. We harness the huge [GDELT 2.0](https://www.gdeltproject.org/) dataset consisting of events collected every day from thousands media channels of the world's news. We 
 focus on sentiment analysis, on the emotions conflicts tend to arouse with respect to their distinct features. We ask ourselves 
 questions such as whether some regions are payed more attention than others, if news articles get more emotionally involved in conflicts 
@@ -208,3 +200,10 @@ Are some nations more emotional? Do we see sensitivity differences between some 
 
 *First 15 minutes update might be a reason for significant biases towards countries at the forefront of reporting digital news such as 
 the UK with BBC and the US with ..?*
+
+
+<sup>
+Marie Sadler <br>
+Pedro Abranches de Figueiredo Simões de Carvalho <br>
+Matyas Lustig <br>
+</sup>
