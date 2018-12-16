@@ -78,7 +78,7 @@ Do we have a saturation limit? Does increasing number of conflicts make people f
 
 Before we performed an analysis based on single events, big and small, here however we see the results taking into account the events that happened in that month. What we surprisingly (or not) found, is that there are traces of a certain saturation regarding our emotions. to remember, the values you see in the y-axis, the more they stray further away from 0, the more emotional the month was. Do not see the values as an absolute value but as a relative ones. If we do this we can see that countries were more events are reported on that month (big or small events) do not go over the 0.1 value on the y-axis that often while countries with fewer events do. This lead us to believe people do have some kind of saturation, not reacting as much when there are many events.
 
-Some fun facts can be taken form this graph, see how India suddenly in august of 2016 gets all emotional! With some internet research and GDELT url we might associate this fact to a shooting that happened in a market in Balajan Tiniali.
+Some interesting observations can be taken form this graph, see how India suddenly in august of 2016 gets all emotional! With some internet research and GDELT url we might associate this fact to a shooting that happened in a market in Balajan Tiniali.
 Also, you can see that it is more commom that when countries get more emotional, they also get less number of events. So you see a movement to the high left corner of the graph. See the growth from march 2017 to april 2017 or from october 2017 to november 2017!. Of course, when there is a big event (such as the India shooting) things get real emotional and can be an outlier in this behaviour.
 
 
