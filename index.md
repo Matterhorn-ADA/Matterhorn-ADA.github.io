@@ -203,6 +203,12 @@ In the following plot we see that most of the countries cluster together, which 
 *Principal component analysis of the word counts by country. We show the principal components 3 and 4 as they show more variance in the data than the first two. Each dot represents a country*
 {: style="text-align: justify"}
 
+### Conclusion
+
+We analyzed the GDELT dataset of the news reported between 2015 and 2017, and the emotions that are attributed to these events. A huge biais towards US and UK based events is seen which mainly comes from the way GDELT operates: only the news articles seen within the first 15 minutes an event first appears are recorded, and the digital news servers the most up to date are located in these countries. Predicting emotions of events and identifying characteristical features that shape the emotional tone of a news article has revealed itself as a complex task. Emotions are related to words, and semantical analyses are challenging. On one hand, we relied on the emotional tone GDELT is providing, and which has revealed itself as not always reliable, and on the other hand we did not have important context information at disposition which can predefine the emotional reaction an event gets in the news. However, by analysing word collections and looking at emotional changes over time, we could see relations between emotions and countries, and identify an emotional saturation limit. 
+
+Here we presented a big picture view of what the GDELT dataset reveals emotionwise, and we are confident that a more in-depth semantical analysis, as well as a focus on specific sub-events or a group of countries can reveal further insights such as cultural and emotional evolutions, as well as which countries have a similar way of reporting their news. 
+
 
 <sup>
 Pedro Abranches de Figueiredo Simões de Carvalho <br>
