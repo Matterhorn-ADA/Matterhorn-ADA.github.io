@@ -27,7 +27,7 @@ Are some countries ignored in the news? Is the number of conflicts taking place 
 q2 - number of articles per country - us
 {: style="text-align: justify"}
 
-<iframe src="//plot.ly/~matterhorn_ada/3.embed" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+<iframe src="//plot.ly/~matterhorn_ada/3.embed" width="600" height="400" frameborder="0" scrolling="no"></iframe>
 
 
 ### How much is too much?
