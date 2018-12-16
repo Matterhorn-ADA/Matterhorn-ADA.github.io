@@ -38,7 +38,7 @@ Are some countries ignored in the news? Is the number of conflicts taking place 
 {: style="text-align: justify"}
 
 Again, it becomes visible that the dataset is biaised towards US-based events, followed by UK events after a big gap. Interestingly, there is a perfect correlation between the number of events happening and the number of articles that are reported (which becomes more evident when zooming in the figure). However, the number of people living in a country do not significantly influence the number of events, except for the very low-populated countries which tend to be in the left corner of the plot. This relation between the number of published articles and the number of events can be explained by the fact, that once the news reaches the web, it spreads in a more or less even fashion among the GDELT news sources, independent from where it originates. Hence, to answer the question whether some countries are ignored in the news, we tend to say no, however, some countries, such as the UK and the US, are comparewise overrepresented, which raises the questions what distinct features does an event require to be actually reported in a news source.
-
+{: style="text-align: justify"}
 
 This continuous bias that we see regarding the UK and the US might be due to the fact that only first 15 minutes of event reportage are accounted when something happens, so major news sources there are at the forefront of reporting digital news such as the BBC or Fox News and CNN, are the main contributors for the events accounted.
 {: style="text-align: justify"}
@@ -77,10 +77,11 @@ Do we have a saturation limit? Does increasing number of conflicts make people f
 {: style="text-align: justify"}
 
 Before we performed an analysis based on single events, big and small, here however we see the results taking into account the events that happened in that month. What we surprisingly (or not) found, is that there are traces of a certain saturation regarding our emotions. to remember, the values you see in the y-axis, the more they stray further away from 0, the more emotional the month was. Do not see the values as an absolute value but as a relative ones. If we do this we can see that countries were more events are reported on that month (big or small events) do not go over the 0.1 value on the y-axis that often while countries with fewer events do. This lead us to believe people do have some kind of saturation, not reacting as much when there are many events.
+{: style="text-align: justify"}
 
 Some interesting observations can be taken form this graph, see how India suddenly in august of 2016 gets all emotional! With some internet research and GDELT url we might associate this fact to a shooting that happened in a market in Balajan Tiniali.
 Also, you can see that it is more commom that when countries get more emotional, they also get less number of events. So you see a movement to the high left corner of the graph. See the growth from march 2017 to april 2017 or from october 2017 to november 2017!. Of course, when there is a big event (such as the India shooting) things get real emotional and can be an outlier in this behaviour.
-
+{: style="text-align: justify"}
 
 
 ### How large is our circle of empathy ? 
@@ -151,6 +152,7 @@ the most prevalent [49% of accuracy]). The following figure shows to what extent
 {: style="text-align: justify"}
 
 The type of event contributes the most towards the tone an article gets, and interestingly the country that reports the event is more informative than the actual country where the event happened. 
+{: style="text-align: justify"}
 
 However, the model is clearly not satisfying and the question of how accurate the reported emotional tone actually is 
 remains. Naturally, one would say, that events where someone got killed are more negative, but in the dataset such events also get 
@@ -197,8 +199,10 @@ Are some nations more emotional? Do we see sensitivity differences between some 
 {: style="text-align: justify"}
 
 We get some interesting insights from this plot. First, that countries have their specific speech. You see that the words used by the US differs a lot by the ones used by Jamaica or Mexico. Then we can also see some relation between the words. Take per example Mexico, kill and death are present on its speech, but in none of the other 4 countries analysed!. We can see that this words relate to some emotionalitty from when we were looking for a saturation limit. The Syrian Arab Republic uses words, that we humans might consider more emotional, such as "love" or "music", while Sweden focus on "power" and "captivation", and thus when looking and the graph of saturation only choosing Asia region countries, you do see that the Syrian Arab Republic is more emotional in general than the others. This relation shows the power of a good analysis of this dataset.
+{: style="text-align: justify"}
 
 By this plot you also see that there are common words to a lot of countries such as "politics", so one wonders what type of countries have similar speeches. Well wonder no more! Because we did it for you!
+{: style="text-align: justify"}
 
 <iframe width="100%" height="500" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/22.embed"></iframe>
 
@@ -206,7 +210,6 @@ By this plot you also see that there are common words to a lot of countries such
 {: style="text-align: justify"}
 
 Here you can see cluster of countries that use similar words. A principal component analysis was done on all the words the countries used. Here we did not only used the 64 positive word that we used to build our model, neither all the words GCAM offers, as the words GCAM contains are not always human readable. We used a "homemade" list of 800 words and with them we can see some interesting clusters!
-
 {: style="text-align: justify"}
 
 <sup>
