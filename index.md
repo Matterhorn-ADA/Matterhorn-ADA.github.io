@@ -11,6 +11,9 @@ Matyas Lustig <br>
 </sup>
 
 
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~StudentUni/14.embed"></iframe>
+
+
 
 In our data story we explore conflicts all over the world and the public attention they receive. We harness the huge [GDELT 2.0]
 (https://www.gdeltproject.org/) dataset consisting of events collected every day from thousands media channels of the world's news. We 
