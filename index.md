@@ -44,7 +44,7 @@ Again, it becomes visible that the dataset is biaised towards US-based events, f
 Does our emotional reaction reflect the severity of an event? 
 {: style="text-align: justify"}
 
-<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/8.embed"></iframe>
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~matterhorn_ada/24.embed"></iframe>
 
 *The average tone of the articles reporting an event within the first 15 minutes it is first seen and the number of articles reporting 
 the event within this short period. The countries indicate where the event happened. Only a fraction of the all the GDELT events in the 
